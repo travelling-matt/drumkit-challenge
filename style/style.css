@@ -1,3 +1,73 @@
 #buttonContainer {
     min-width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
 }
+
+#aKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/boom.jpg);
+    background-size: cover;
+}
+
+#sKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/handclap.png);
+    background-size: cover;
+}
+
+#dKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/hihat.png);
+    background-size: cover;
+}
+
+#fKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/kick.png);
+    background-size: cover;
+}
+
+#gKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/openhat.png);
+    background-size: cover;
+}
+
+#hKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/ride.jpg);
+    background-size: cover;
+}
+
+#jKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/snare.jpg);
+    background-size: cover;
+}
+
+#kKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/tink.gif);
+    background-size: cover;
+}
+
+#lKey {
+    flex-basis: 1;
+    flex-grow: 1;
+    background-image: url(../images/tom.png);
+    background-size: cover;
+}
+
+p {
+    visibility: hidden;
+  }
