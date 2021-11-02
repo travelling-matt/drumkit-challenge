@@ -71,3 +71,11 @@
 p {
     visibility: hidden;
   }
+
+@media only screen and (max-width: 600px) {
+    #buttonContainer {
+        min-width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+  }
