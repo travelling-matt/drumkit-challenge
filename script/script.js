@@ -108,7 +108,7 @@ sKey.addEventListener("click", () => {
     document.getElementById("clap").pause();
     document.getElementById("clap").currentTime = 0;
     document.getElementById("clap").play();
-})
+    })
 
 dKey.addEventListener("click", () => {
     document.getElementById("hihat").pause();
@@ -151,3 +151,4 @@ lKey.addEventListener("click", () => {
     document.getElementById("tom").currentTime = 0;
     document.getElementById("tom").play();
 })
+
